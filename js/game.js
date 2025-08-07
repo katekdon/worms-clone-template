@@ -1,4 +1,6 @@
 class PlayScene extends Phaser.Scene {
+  this.weapons = ['bazooka', 'grenade', 'dynamite'];
+  this.currentWeapon = 0;
   constructor() {
     super('PlayScene');
     this.currentPlayer = 0;
