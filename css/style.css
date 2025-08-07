@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Courier New', monospace;
+  background: #111;
+  color: #0f0;
+  text-align: center;
+}
+
+h1 {
+  color: #0f0;
+  text-shadow: 0 0 5px #0f0;
+}
+
+#game-container {
+  margin: 20px auto;
+  width: 800px;
+  height: 600px;
+  border: 2px solid #0f0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#ui {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+#fire-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background: #f33;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#fire-btn:hover {
+  background: #f00;
+}
